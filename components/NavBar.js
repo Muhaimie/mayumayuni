@@ -2,11 +2,11 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <div>
+    <>
       <div className="flex items-center h-20 mx-4 md:mx-12 lg:mx-40 ">
         <div className="flex flex-grow">
           <a href="#">
-            <p className="font-mono font-bold text-gray-600 hover:text text-2xl">
+            <p className="font-mono font-bold grayish hover:text-primary text-2xl">
               MayuMayuni
             </p>
           </a>
@@ -16,7 +16,7 @@ const NavBar = () => {
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7 text-gray-600 hover:text"
+              className="h-7 w-7 grayish hover:text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -33,7 +33,7 @@ const NavBar = () => {
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7  text-gray-600 hover:text"
+              className="h-7 w-7  grayish hover:text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -48,7 +48,7 @@ const NavBar = () => {
           </a>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
