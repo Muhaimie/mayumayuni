@@ -4,9 +4,9 @@ import Image from "next/image";
 const Cover = () => {
   return (
     <div className="relative bg-black h-2/6 md:h-3/6 xl:h-4/6 xl:mx-14 ">
-      <div className="opacity-40 z-0">
+      <div className="opacity-80 z-0">
         <Image
-          src={"/cover.jpg"}
+          src={"/cover-test.jpg"}
           alt="cover-image"
           layout="fill"
           objectFit="fill"
@@ -19,7 +19,7 @@ const Cover = () => {
             Aesthetic Appreciation Touch and Ideas
           </p>
           <a className="mt-4 " href="#">
-            <h1 className="font-medium text-md border-white hover:border-white hover:text-black hover:bg-white border-2 px-3 py-1 my-3">
+            <h1 className="font-medium text-md  border-2 px-3 py-1 my-3 lg:scale-95 lg:hover:scale-100">
               Shop Now
             </h1>
           </a>

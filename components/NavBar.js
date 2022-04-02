@@ -6,7 +6,7 @@ const NavBar = () => {
       <div className="flex items-center h-20 mx-4 md:mx-12 lg:mx-40 ">
         <div className="flex flex-grow">
           <a href="#">
-            <p className="font-mono font-bold grayish hover:text-primary text-2xl">
+            <p className="font-mono font-bold text-aero hover:text-primary text-2xl">
               MayuMayuni
             </p>
           </a>
@@ -14,7 +14,10 @@ const NavBar = () => {
         <div className="flex items-center space-x-4 md:space-x-6 ">
           {/* products */}
           <a href="#">
-            <svg
+            <h1 className="font-bold font-mono text-xl text-aero hover:text-primary">
+              Shop
+            </h1>
+            {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-7 w-7 grayish hover:text-primary"
               fill="none"
@@ -27,13 +30,13 @@ const NavBar = () => {
                 strokeLinejoin="round"
                 d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
               />
-            </svg>
+            </svg> */}
           </a>
           {/* shopping-cart */}
           <a href="#">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7  grayish hover:text-primary"
+              className="h-7 w-7  text-aero hover:text-primary"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
