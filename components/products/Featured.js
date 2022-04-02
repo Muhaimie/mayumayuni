@@ -18,7 +18,7 @@ const Featured = () => {
           </a>
         </div>
         {/* card div */}
-        <div className="flex xl:justify-center overflow-x-auto space-x-12">
+        <div className="flex lg:justify-center overflow-x-auto space-x-12">
           <ProductCard />
           <ProductCard />
           <ProductCard />

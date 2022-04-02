@@ -2,7 +2,7 @@ import React from "react";
 
 const NavBar = () => {
   return (
-    <>
+    <div className="border-b-2 border-b-gray-200">
       <div className="flex items-center h-20 mx-4 md:mx-12 lg:mx-40 ">
         <div className="flex flex-grow">
           <a href="#">
@@ -17,20 +17,6 @@ const NavBar = () => {
             <h1 className="font-bold font-mono text-xl text-aero hover:text-primary">
               Shop
             </h1>
-            {/* <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7 grayish hover:text-primary"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-              />
-            </svg> */}
           </a>
           {/* shopping-cart */}
           <a href="#">
@@ -51,7 +37,7 @@ const NavBar = () => {
           </a>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

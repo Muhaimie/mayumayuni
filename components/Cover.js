@@ -18,8 +18,8 @@ const Cover = () => {
           <p className="text-lg lg:text-2xl lg:mx-10 text-ellipsis overflow-hidden text-center">
             Aesthetic Appreciation Touch and Ideas
           </p>
-          <a className="mt-4 " href="#">
-            <h1 className="font-medium text-md  border-2 px-3 py-1 my-3 lg:scale-95 lg:hover:scale-100">
+          <a className="mt-7 " href="#">
+            <h1 className="font-medium text-md  border-2 px-3 py-1 lg:scale-95 lg:hover:scale-100">
               Shop Now
             </h1>
           </a>
